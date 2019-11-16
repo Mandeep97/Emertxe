@@ -1,13 +1,22 @@
-/*
-Title:To Implement the  own c-type library (any four)
-Author:Mandeep S
-Date:
-Input:enter the chrarcter
-1
-1.is_alphanum/n2.is_alpha/n3.is_ascii/n4.is_space/n2
-
-Output:yes it is alphabetic
-
+/*Implement your own c-type library (any four).Description:
+• c-type library functions check whether c, which must have the value of an
+unsigned char or EOF, falls into a certain character class according to the current
+locale.
+◦ isalnum() - checks for an alphanumeric character; it is equivalent to
+(isalpha(c) || isdigit(c)).
+◦ isalpha() - checks for an alphabetic character; in the standard "C" locale, it is
+equivalent to (isupper(c) || islower(c)). In some locales, there may be
+additional characters for which isalpha() is true—letters which are neither
+upper case nor lower case.
+◦ isascii() - checks whether c is a 7-bit unsigned char value that fits into the
+ASCII character set.
+◦ isblank() - checks for a blank character; that is, a space or a tab.
+Pr-requisites: -
+• Loops
+• Functions
+Objective: -
+• To understand the concept of
+◦ Functions
 */
 #include<stdio.h>                        // header file
 int is_alnum(int ch)                  //function definition for is_alphanum
